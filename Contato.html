@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carvalho | Fale conosco</title>
+    <link rel="stylesheet" href="./css/contato.css">
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <header>
+
+        <ul class="logo">
+            <div>
+
+            </div>
+        </ul>
+
+        <ul class="links-pagina">
+            <li>
+                <a href="index.html">Página inicial</a>
+            </li>
+
+            <li><a href="Serviços.html">Nosssos serviços</a>
+            </li>
+
+            <li><a href="Contato.html">Fale conosco</a>
+            </li>
+        </ul>
+
+        <ul class="redes">
+            <li>
+                <a target="_blank" href="https://www.instagram.com/carvalhoservicosautomotivos/"><img
+                        src="./imgs/instagram.png" alt="Icone instagram">
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="">
+                    <img src="./imgs/whatsapp.png" alt="icone whatsapp">
+                </a>
+            </li>
+        </ul>
+    </header>
+
+    <!--Formulário 'Fale conosco'-->
+    <main>
+    <section class="formulario">
+        <form action="">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required> <br><br>
+
+            <label for="email">Email:</label>
+            <input type="e-mail" name="email" id="email" placeholder="Digite seu email" required> <br><br>
+
+            <label for="tel">Telefone:</label>
+            <input type="tel" name="tel" id="tel" placeholder="Digite o seu telefone" required> <br><br>
+
+            <label for="marca/modelo">Veículo:</label>
+            <input type="text" name="marca/modelo" id="marca/modelo" placeholder="Marca/modelo do veículo" required>
+            <br><br>
+
+            <label for="ano">Ano:</label>
+            <input type="number" name="ano" id="ano" value="2000" required> <br><br>
+
+            <label for="familia1">Tipo de serviço:</label><br>
+            <input type="radio" name="familia1" value="Revisão">Revisão
+            <input type="radio" name="familia1" value="Manutenção">Manutenção
+            <input type="radio" name="familia1" value="Outros serviços">Outros serviços
+            <br><br>
+
+            <label for="mensagem">Descreva o tipo de serviço que está precisando:</label> <br><br>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder=""></textarea> <br><br>
+        
+            <div class="button-enviar">
+                <button type="submit" value="enviar form">Enviar</button>
+            </div>
+        </form>
+    </section>
+    </main>
+
+    <!--Rodapé-->
+    <footer>
+        <div class="rodape">
+            <p> © Carvalho Serviços Automotivos. Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

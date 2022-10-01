@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-image: linear-gradient(black 0%, black 5%, grey 25%, whitesmoke 100%);
+}
+
+/*Incio cabeçalho*/
+
+header {
+    background-color: #bd1826;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3em;
+    margin: 36px;
+    padding: 16px;
+}
+
+.logo div {
+    height: 62px;
+    width: 62px;
+    background-color: black;
+}
+
+.links-pagina a {
+    color: whitesmoke;
+    border-bottom: 3px solid black;
+}
+
+.redes {
+    display: flex;
+    gap: 5px;
+}
+
+.redes img {
+    width: 62px;
+}
+
+/*Fim cabeçalho*/
+
+/* inicio form */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario {
+    border: 1px solid #bd1826;
+    display: flex;
+    justify-content: center;
+    max-width: 1350px;
+    width: 90%;
+    height: auto;
+    background-color: #bd1826;
+}
+
+form {
+    color: whitesmoke;
+}
+
+input {
+    width: 100%;
+    font-size: 1.5em;
+    background-color: whitesmoke;
+}
+
+/* fim form */
+
+/*inicio rodapé*/
+
+footer {
+    padding-top: 82px;
+}
+
+.rodape {
+    background-color: black;
+    padding: 32px;
+    text-align: center;
+}
+
+.rodape p {
+    color: whitesmoke;
+}
+
+/*Fim rodapé*/

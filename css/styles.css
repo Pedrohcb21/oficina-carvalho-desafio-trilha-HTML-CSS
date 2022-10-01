@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-image: linear-gradient(black 0%, black 5%, grey 25%, whitesmoke 100%);
+}
+
+/*Incio cabeçalho*/
+
+header {
+    background-color: #bd1826;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3em;
+    margin: 36px;
+    padding: 16px;
+}
+
+.logo div {
+    height: 62px;
+    width: 62px;
+    background-color: black;
+}
+
+.links-pagina a {
+    color: whitesmoke;
+    border-bottom: 3px solid black;
+}
+
+.redes {
+    display: flex;
+    gap: 5px;
+}
+
+.redes img {
+    width: 62px;
+}
+
+/*Fim cabeçalho*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 62px;
+}
+
+section {
+    max-width: 1280px;
+    height: 580px;
+    width: 100%;
+}
+
+/*Inicio bloco "sobre"*/
+
+.sobre {
+    background-image: url(../imgs/Bugatti.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 62px;
+    overflow: hidden;
+}
+
+.sobre ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre h2 {
+    color: whitesmoke;
+    padding-top: 64px;
+    font-size: 2em;
+}
+
+.sobre h1 {
+    color: #bd1826;
+    font-size: 3em;
+    padding-top: 124px;
+}
+
+.sobre p {
+    color: whitesmoke;
+    padding-top: 124px;
+    padding-bottom: 64px;
+    font-size: 2em;
+}
+
+/*Fim bloco "sobre"*/
+
+/*inicio bloco "serviços"*/
+
+.serviços {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    border-radius: 62px;
+    overflow: hidden;
+}
+
+.serviços .textos {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+
+.serviços h2 {
+    color: #bd1826;
+    font-size: 3em;
+    padding-top: 24px;
+}
+
+.serviços p {
+    color: whitesmoke;
+    font-size: 2em;
+}
+
+.imgs-serviços {
+   padding-top: 3em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgs-serviços li {
+    color: whitesmoke;
+    text-align: center;
+    /* border: 1px solid whitesmoke */
+}
+
+.imgs-serviços img {
+    width: 160px;
+    height: 95px;
+}
+
+.imgs-serviços li :hover {
+    width: 260px;
+    height: auto;
+}
+
+.serviços a {
+    color: black;
+    background-color: #bd1826;
+    border-radius: 8px;
+    font-size: 1.5em;
+    padding: 18px;
+}
+
+.serviços div {
+   margin-top: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+/*Fim bloco "serviços"*/
+
+/*inicio rodapé*/
+
+footer {
+    padding-top: 82px;
+}
+
+.rodape {
+    background-color: black;
+    padding: 32px;
+    text-align: center;
+}
+
+.rodape p {
+    color: whitesmoke;
+}
+
+/*Fim rodapé*/
