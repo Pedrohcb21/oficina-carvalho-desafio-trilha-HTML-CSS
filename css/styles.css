@@ -24,7 +24,11 @@ header {
 .logo div {
     height: 62px;
     width: 62px;
-    background-color: black;
+}
+
+.logo img {
+    width: 162px;
+    height: 62px;
 }
 
 .links-pagina a {
