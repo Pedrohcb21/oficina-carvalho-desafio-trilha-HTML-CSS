@@ -1,0 +1,38 @@
+header {
+    background-color: #bd1826;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3em;
+    margin: 36px;
+    padding: 16px;
+}
+
+.logo div {
+    height: 62px;
+    width: 62px;
+}
+
+.logo img {
+    width: 162px;
+    height: 62px;
+}
+
+.links-pagina a {
+    color: whitesmoke;
+    border-bottom: 3px solid black;
+}
+
+.redes {
+    display: flex;
+    gap: 5px;
+}
+
+.redes img {
+    width: 62px;
+}
+
+/* animações */
+
+.redes :hover {
+    width: 82px;
+}

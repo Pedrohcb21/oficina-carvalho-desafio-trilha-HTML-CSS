@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* fim reset */
+
+/* fontes */
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+/* fim das fontes */
+
+/* background do site */
+body {
+    background-image: linear-gradient(black 0%, black 5%, grey 25%, whitesmoke 100%);
+}
+
+/* fim do background */

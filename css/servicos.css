@@ -1,43 +1,6 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-decoration: none;
-}
 
-
- header {
-    background-color: #bd1826;
-    display: flex;
-    justify-content: space-between;
-    font-size: 1.3em;
-    margin: 36px;
-    padding: 16px;
-}
-
-.logo div {
-    height: 62px;
-    width: 62px;
-    background-color: black;
-}
-
-.links-pagina a {
-    color: whitesmoke;
-    border-bottom: 3px solid black;
-}
-
-.redes {
-    display: flex;
-    gap: 5px;
-}
-
-.redes img {
-    width: 62px;
-}
-
-body {
-    background-image: linear-gradient(#000 0%, #000 5%, #fff 25%, #fff 100%);
+main {
+    padding-top: 24px;
 }
 
 .services {
@@ -45,41 +8,20 @@ body {
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    padding-bottom: 100px;
+    gap: 1em;
 }
 
 .services ul {
-    width: 720px;
+    width: 1280px;
     height: auto;
+    text-align: center;
     overflow: hidden;
     padding: 24px;
-    margin: -62px;
     margin-left: 24px;
     margin-right: 24px;
-    background-color: #bd1826;
+    background-color: #000;
     
 }
-
-.services-motor {
-    align-self: flex-start;
-    text-align: center;
-}
-
-.services-cambio {
-    align-self: flex-end;
-    text-align: center;
-}
-
-.services-susp {
-    align-self: flex-start;
-    text-align: center;
-}
-
-.services-freio {
-    align-self: flex-end;
-    text-align: center;
-}
-
 
 li img {
     width: 420px;
@@ -91,24 +33,6 @@ li img {
 }
 
 .span2 {
-    color: #000;
+    color: #bd1826;
     font-size: 1.5em;
 }
-
-/*inicio rodapé*/
-
-footer {
-    padding-top: 82px;
-}
-
-.rodape {
-    background-color: black;
-    padding: 32px;
-    text-align: center;
-}
-
-.rodape p {
-    color: whitesmoke;
-}
-
-/*Fim rodapé*/
