@@ -35,5 +35,6 @@ header {
 /* animações */
 
 .redes :hover {
-    width: 82px;
+    width: 66px;
+    opacity: 0.9;
 }

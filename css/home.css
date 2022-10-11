@@ -1,16 +1,4 @@
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 62px;
-    padding-top: 24px;
-}
 
-section {
-    max-width: 1280px;
-    width: 100%;
-    height: 580px;
-}
 
 /*Inicio bloco "sobre"*/
 .sobre {
@@ -50,19 +38,23 @@ section {
 
 /*inicio bloco "serviços"*/
 .serviços {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+
     background-color: black;
     background-size: cover;
     background-position: center;
     border-radius: 62px;
+
     overflow: hidden;
 }
 
-.serviços .textos {
+.textos {
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap: 2em;
-    
+    gap: 16px;
 }
 
 .serviços h2 {
@@ -77,7 +69,6 @@ section {
 }
 
 .imgs-serviços {
-    padding-top: 3em;
     display: flex;
     justify-content: space-around;
 }
@@ -88,31 +79,28 @@ section {
 }
 
 .imgs-serviços img {
-    width: 160px;
-    height: 95px;
-}
-
-.imgs-serviços li :hover {
-    width: 250px;
-    height: auto;
+    width: 200px;
+    height: 120px;
+    border-radius: 16px;
+    object-fit: cover;
 }
 
 .serviços a {
     color: black;
     background-color: #bd1826;
-    border-radius: 8px;
+    border-radius: 50px;
     font-size: 1.5em;
     padding: 18px;
 }
 
 .serviços div {
-    margin-top: 3em;
     display: flex;
     justify-content: center;
 }
 
 .serviços div :hover {
-    padding: 24px;
+    color: #fff;
+    background-color: transparent;
 }
 
 /*Fim bloco "serviços"*/
