@@ -21,6 +21,8 @@ body {
 /* background do site */
 body {
     background-image: linear-gradient(black 0%, black 5%, grey 25%, whitesmoke 100%);
+    background-repeat: no-repeat;
+    width: 100%;
 }
 
 /* fim do background */

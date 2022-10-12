@@ -42,9 +42,7 @@
     flex-direction: column;
     gap: 42px;
 
-    background-color: black;
-    background-size: cover;
-    background-position: center;
+    background-color: #000;
     border-radius: 62px;
 
     overflow: hidden;
@@ -83,10 +81,11 @@
     height: 120px;
     border-radius: 16px;
     object-fit: cover;
+    border: 2px solid #fff;
 }
 
 .serviços a {
-    color: black;
+    color: #fff;
     background-color: #bd1826;
     border-radius: 50px;
     font-size: 1.5em;
@@ -101,6 +100,7 @@
 .serviços div :hover {
     color: #fff;
     background-color: transparent;
+    border: 2px solid #fff;
 }
 
 /*Fim bloco "serviços"*/

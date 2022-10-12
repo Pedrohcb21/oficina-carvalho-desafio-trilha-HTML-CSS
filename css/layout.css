@@ -1,12 +1,13 @@
 /* HOME */
 .main-home {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 42px;
 }
 
 .section-home {
-    margin: 24px auto;
+    width: 90%;
     padding: 42px;
 }
 
@@ -14,18 +15,19 @@
 
 /* SERVICES */
 .main-services {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .services {
     background-color: #000;
-
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    margin: 0 42px;
+    width: 90%;
+    gap: 24px;;
     border-radius: 32px;
+    overflow: hidden;
 }
 
 .services-itens {
@@ -42,3 +44,44 @@
 }
 
 /* Fim da SERVICES */
+
+/* inicio form */
+
+main {
+    padding-top: 24px;
+    font-size: 1.3em;
+}
+
+.formulario {
+    margin: auto 82px;
+
+    display: grid;
+    text-align: center;
+    background-color: #000;
+    border-radius: 62px;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 32px;
+    overflow: hidden;
+
+    color: #fff;
+    padding: 32px;
+}
+
+.form-rows {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-colunms {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* fim form */

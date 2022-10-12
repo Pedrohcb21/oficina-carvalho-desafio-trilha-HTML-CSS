@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carvalho | Fale conosco</title>
-    
+
     <link rel="stylesheet" href="./css/gloal-reset.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/contato.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/layout.css">
 </head>
 
 <body>
@@ -50,44 +51,48 @@
 
     <!--Formulário 'Fale conosco'-->
     <main>
-    <section class="formulario">
-       
-        <h2>Preencha o formulário para agendar um serviço</h2>
-       
-        <form action="">
-            <label for="nome">Nome:</label>
-            <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required> <br><br>
+        <section class="formulario">
 
-            <label for="email">Email:</label>
-            <input type="e-mail" name="email" id="email" placeholder="Digite seu email" required> <br><br>
+            <h2 class="form-title">Preencha o formulário para agendar um serviço</h2>
 
-            <label for="tel">Telefone:</label>
-            <input type="tel" name="tel" id="tel" placeholder="Digite o seu telefone" required> <br><br>
+            <form class="form" action="">
 
-            <label for="marca/modelo">Veículo:</label>
-            <input type="text" name="marca/modelo" id="marca/modelo" placeholder="Marca/modelo do veículo" required>
-            <br><br>
+                <div class="form-rows">
+                    <label class="label-rows" for="nome">Nome:</label>
+                    <input class="input-rows" type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
 
-            <label for="ano">Ano:</label>
-            <input type="number" name="ano" id="ano" value="2000" required> <br><br>
+                    <label class="label-rows" for="email">Email:</label>
+                    <input class="input-rows" type="e-mail" name="email" id="email" placeholder="Digite seu email"
+                        required>
 
-            <label for="familia1">Tipo de serviço:</label><br>
-            <input type="radio" name="familia1" value="Revisão">Revisão
-            <input type="radio" name="familia1" value="Manutenção">Manutenção
-            <input type="radio" name="familia1" value="Outros serviços">Outros serviços
-            <br><br>
+                    <label class="label-rows" for="tel">Telefone:</label>
+                    <input class="input-rows" type="tel" name="tel" id="tel" placeholder="Digite o seu telefone"
+                        required>
 
-            <label for="mensagem">Descreva o tipo de serviço que está precisando:</label> <br><br>
-            <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder=""></textarea> <br><br>
-        
-            <div class="button-enviar">
-                <button type="submit" value="enviar form">Enviar</button>
-            </div>
-        </form>
+                    <label class="label-rows" for="marca/modelo">Veículo:</label>
+                    <input class="input-rows" type="text" name="marca/modelo" id="marca/modelo"
+                        placeholder="Marca/modelo do veículo" required>
 
-        <h2>Entraremos em contato!</h2>
+                    <label class="label-rows" for="ano">Ano:</label>
+                    <input class="input-rows" type="number" name="ano" id="ano" placeholder="2000" required>
+                </div>
 
-    </section>
+                <div class="form-colunms">
+                    <label class="label-rows" for="mensagem">O que você deseja:</label>
+                    <textarea class="input-rows" name="mensagem" id="mensagem" cols="30" rows="10"
+                        placeholder=""></textarea>
+
+                    <div class="button">
+                        <button class="button-enviar" type="submit" value="enviar form">Enviar</button>
+                    </div>
+
+                </div>
+            </form>
+
+
+            <h2 class="form-title">Entraremos em contato!</h2>
+
+        </section>
     </main>
 
     <!--Rodapé-->
