@@ -45,3 +45,23 @@ header {
     width: 66px;
     opacity: 0.9;
 }
+
+@media screen and (max-width: 600px) {
+    header {
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        gap: 24px;
+        overflow: hidden;
+        margin: 16px;
+    }
+
+    .links-pagina {
+        flex-direction: row;
+    }
+
+    .redes {
+        gap: 24px;
+        margin-top: 12px;
+    }
+}
