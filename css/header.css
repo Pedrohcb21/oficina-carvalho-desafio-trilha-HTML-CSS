@@ -3,10 +3,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.3em;
-    margin: 36px;
+    font-size: 1.5em;
+    font-weight: bold;
     padding: 16px;
-    border-radius: 42px;
+    margin-bottom: 2em;
 }
 
 .logo div {
@@ -52,8 +52,8 @@ header {
         text-align: center;
         flex-direction: column;
         gap: 24px;
+        padding: 0.5em;
         overflow: hidden;
-        margin: 16px;
     }
 
     .links-pagina {

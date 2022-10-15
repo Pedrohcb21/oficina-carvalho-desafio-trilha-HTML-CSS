@@ -1,6 +1,8 @@
 /* inicio form */
 .label-rows {
-    font-size: 2em;
+    text-align: left;
+    font-size: 1.5em;
+    padding: 8px 0;
 }
 
 .input-rows {
@@ -10,20 +12,6 @@
     color: #fff;
     border: 2px solid #fff;
     border-radius: 8px;
-}
-
-.button-enviar {
-    background-color: #bd1826;
-    color: #fff;
-    font-size: 1.5em;
-    padding: 16px;
-    border-radius: 16px;
-    cursor: pointer;
-}
-
-.button-enviar:hover {
-    background-color: transparent;
-    border: 2px solid #fff;
 }
 
 .form-title {

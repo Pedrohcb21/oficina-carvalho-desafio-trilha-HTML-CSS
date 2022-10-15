@@ -1,29 +1,13 @@
 /* HOME */
 .main-home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 42px;
 }
 
 .section-home {
-    width: 90%;
+    width: 100%;
     padding: 42px;
-}
-
-@media screen and (max-width: 500px) {
-    .section-home {
-        width: 100%;
-        padding: 22px;
-        text-align: center;
-        border-radius: initial;
-    }
-
-    .imgs-serviços {
-        flex-direction: column;
-        align-items: center;
-        gap: 24px;
-    }
 }
 
 /* Fim da HOME */
@@ -39,9 +23,7 @@
     background-color: #000;
     display: flex;
     flex-direction: column;
-    width: 90%;
     gap: 24px;
-    border-radius: 32px;
     overflow: hidden;
 }
 
@@ -50,10 +32,9 @@
     align-items: center;
     gap: 32px;
     padding: 34px;
-    text-align: left;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
     .services {
         flex-direction: column;
     }
@@ -63,15 +44,12 @@
         text-align: center;
     }
 
-}
-
-@media screen and (max-width: 768px) {
-    .services-itens img {
-        width: 100%;
+    .services img {
+        width: 75%;
     }
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 769px) {
 
     .services-itens:nth-of-type(2n) {
         flex-direction: row-reverse;
@@ -83,18 +61,15 @@
 
 /* inicio form */
 
-main {
-    padding-top: 24px;
+.main-form {
     font-size: 1.3em;
 }
 
 .formulario {
-    margin: auto 82px;
     overflow: hidden;
     display: grid;
     text-align: center;
     background-color: #000;
-    border-radius: 62px;
 }
 
 .form {
@@ -118,18 +93,35 @@ main {
     gap: 24px;
 }
 
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 670px) {
     .formulario {
-        margin: initial;
-        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
     }
 
     .form {
-        width: 100%;
+        width: 90%;
         display: flex;
         flex-direction: column;
         text-align: center;
+    }
+
+    .form-title {
+        padding: 24px;
+        margin: 24px auto;
+        font-size: 2em;
+    }
+
+    .label-rows {
+        font-size: 1.5em;
+    }
+
+    .form-rows {
+        font-size: 1em;
+        width: 100%;
     }
 }
 

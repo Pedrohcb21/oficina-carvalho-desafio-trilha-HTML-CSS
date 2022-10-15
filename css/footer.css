@@ -3,11 +3,19 @@ footer {
 }
 
 .rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
     background-color: black;
-    padding: 32px;
-    text-align: center;
+    padding: 24px 8px;
 }
 
-.rodape p {
+.logo-rodape img {
+    width: 150px;
+
+}
+
+.rodape small {
     color: whitesmoke;
 }

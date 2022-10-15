@@ -1,5 +1,5 @@
 .services-img {
-    width: 480px;
+    width: 40%;
     object-fit: cover;
     border: 3px solid #fff;
     border-radius: 24px;
@@ -14,9 +14,12 @@
 .span1 {
     font-size: 2em;
     color: #fff;
+    font-weight: bold;
 }
 
 .span2 {
     color: #bd1826;
     font-size: 1.5em;
+    font-weight: 600;
+    text-decoration: underline;
 }

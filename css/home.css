@@ -1,82 +1,73 @@
-
-
 /*Inicio bloco "sobre"*/
-.sobre {
+.banner {
     background-image: url(../imgs/Bugatti.jpg);
     background-size: cover;
     background-position: center;
-    border-radius: 62px;
+    background-repeat: no-repeat;
     overflow: hidden;
 }
 
-.sobre ul {
+.banner ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
-.sobre h2 {
-    color: whitesmoke;
+.banner .texts h2 {
+    color: #fff;
     padding-top: 64px;
-    font-size: 2em;
-}
-
-.sobre h1 {
-    color: #bd1826;
-    font-size: 3em;
-    padding-top: 124px;
-}
-
-.sobre p {
-    color: whitesmoke;
-    padding-top: 124px;
     padding-bottom: 64px;
     font-size: 2em;
+    font-weight: bold;
+}
+
+.texts h1 {
+    color: #bd1826;
+    font-size: 3em;
+    font-weight: bold;
 }
 
 /*Fim bloco "sobre"*/
 
 /*inicio bloco "serviços"*/
-.serviços {
+.services-home {
     display: flex;
     flex-direction: column;
-    gap: 42px;
-
+    gap: 82px;
     background-color: #000;
-    border-radius: 62px;
-
     overflow: hidden;
 }
 
-.textos {
+.texts {
     display: flex;
     flex-direction: column;
     text-align: center;
     gap: 16px;
 }
 
-.serviços h2 {
+.texts h2 {
     color: #bd1826;
     font-size: 3em;
+    font-weight: bold;
     padding-top: 24px;
 }
 
-.serviços p {
+.texts p {
     color: whitesmoke;
     font-size: 2em;
+    font-weight: 600;
 }
 
-.imgs-serviços {
+.imgs-services-home {
     display: flex;
+    align-items: center;
+    flex-wrap:wrap;
     justify-content: space-around;
+    gap: 1em;
 }
 
-.imgs-serviços li {
-    color: whitesmoke;
-    text-align: center;
-}
-
-.imgs-serviços img {
+.imgs-services-home img {
     width: 200px;
     height: 120px;
     border-radius: 16px;
@@ -84,23 +75,14 @@
     border: 2px solid #fff;
 }
 
-.serviços a {
-    color: #fff;
-    background-color: #bd1826;
-    border-radius: 50px;
-    font-size: 1.5em;
-    padding: 18px;
+.imgs-services-home img:hover {
+    opacity: 0.5;
 }
 
-.serviços div {
+.button {
     display: flex;
     justify-content: center;
-}
 
-.serviços div :hover {
-    color: #fff;
-    background-color: transparent;
-    border: 2px solid #fff;
 }
 
 /*Fim bloco "serviços"*/
