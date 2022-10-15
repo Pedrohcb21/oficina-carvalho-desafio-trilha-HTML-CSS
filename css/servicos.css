@@ -1,4 +1,5 @@
 .services-img {
+    max-width: 500px;
     width: 40%;
     object-fit: cover;
     border: 3px solid #fff;
