@@ -1,0 +1,12 @@
+@import url(../gloal-reset.css);
+
+@import url(../layout.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url(../header.css);
+@import url(../home.css);
+@import url(../servicos.css);
+@import url(../contato.css);
+@import url(../footer.css);
+
+@import url(../button.css);

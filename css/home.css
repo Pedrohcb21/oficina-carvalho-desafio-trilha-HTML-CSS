@@ -5,26 +5,28 @@
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
+
+    height: auto;
 }
 
-.banner ul {
+.banner-texts {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    gap: 6em;
 }
 
 .banner .texts h2 {
     color: #fff;
-    padding-top: 64px;
-    padding-bottom: 64px;
-    font-size: 2em;
+
+    font-size: 1.8em;
     font-weight: bold;
 }
 
 .texts h1 {
     color: #bd1826;
-    font-size: 3em;
+    font-size: 3.5em;
     font-weight: bold;
 }
 
@@ -39,7 +41,7 @@
     overflow: hidden;
 }
 
-.texts {
+.services-home-texts {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -48,21 +50,21 @@
 
 .texts h2 {
     color: #bd1826;
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: bold;
     padding-top: 24px;
 }
 
 .texts p {
     color: whitesmoke;
-    font-size: 2em;
+    font-size: 1.7em;
     font-weight: 600;
 }
 
 .imgs-services-home {
     display: flex;
     align-items: center;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: space-around;
     gap: 1em;
 }
@@ -79,10 +81,5 @@
     opacity: 0.5;
 }
 
-.button {
-    display: flex;
-    justify-content: center;
-
-}
 
 /*Fim bloco "serviços"*/

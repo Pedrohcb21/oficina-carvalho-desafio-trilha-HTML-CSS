@@ -1,7 +1,7 @@
 /* HOME */
 .main-home {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 42px;
 }
 
@@ -10,10 +10,18 @@
     padding: 42px;
 }
 
+@media screen and (max-width: 768px) {
+    .button {
+        width: 100%;
+        text-align: center;
+    }
+}
 /* Fim da HOME */
 
 /* SERVICES */
 .main-services {
+    max-width: 100%;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,7 +64,6 @@
         text-align: right;
     }
 }
-
 /* Fim da SERVICES */
 
 /* inicio form */
@@ -124,5 +131,4 @@
         width: 100%;
     }
 }
-
 /* fim form */

@@ -1,12 +1,20 @@
+.services-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
 .button {
     background-color: #bd1826;
+    border: 2px solid #bd1826;
     color: #fff;
     font-size: 1.5em;
     padding: 16px;
     border-radius: 16px;
     cursor: pointer;
-}
 
+}
 
 .button:hover {
     background-color: transparent;
