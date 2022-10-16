@@ -40,8 +40,9 @@
     text-decoration: underline;
 }
 
-h2 {
+.btn-services h2 {
     color: #fff;
+    text-decoration: underline #bd1826;
 }
 
 .btn-services {
@@ -49,6 +50,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding-top: 1.5em;
     gap: 1em;
     margin-bottom: 2em;
 }
