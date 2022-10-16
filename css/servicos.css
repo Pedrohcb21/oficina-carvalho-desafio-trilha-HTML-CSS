@@ -17,7 +17,7 @@
     text-align: center;
     color: #fff;
     text-decoration: underline #bd1826;
-    font-size: 2.8em;
+    font-size: 2.2em;
     font-weight: bolder;
 }
 
@@ -37,12 +37,10 @@
     color: #bd1826;
     font-size: 1.3em;
     font-weight: 600;
-    text-decoration: underline;
 }
 
 .btn-services h2 {
     color: #fff;
-    text-decoration: underline #bd1826;
 }
 
 .btn-services {
