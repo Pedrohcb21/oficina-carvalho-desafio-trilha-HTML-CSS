@@ -100,7 +100,7 @@
     gap: 24px;
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 820px) {
     .formulario {
         display: flex;
         flex-direction: column;
@@ -120,6 +120,10 @@
         padding: 24px;
         margin: 24px auto;
         font-size: 2em;
+    }
+
+    .input-rows {
+        width: 100%;
     }
 
     .label-rows {
